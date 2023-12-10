@@ -88,7 +88,6 @@ object CamelCards:
       Hand(cards, values(1).toInt)
     }
 
-
   def readFile(fileName: String) =
     Source.fromFile(fileName).getLines.toList
 
